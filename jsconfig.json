@@ -1,5 +1,6 @@
 {
-  "typeAcquisition": {
-    "include": ["jest"]
-  }
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["**/*.js"]
 }
